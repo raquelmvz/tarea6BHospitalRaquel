@@ -22,10 +22,9 @@ public class Empleado {
     }
     
     //explicacion en el diagrama dia
-    
-//    public double calcularIRPF() {
-//        
-//    }
+    public double calcularIRPF() {
+        return (0.12 * this.salario);
+    }
 
     public String getNumeroSeguridadSocial() {
         return numeroSeguridadSocial;
